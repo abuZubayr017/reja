@@ -1,0 +1,316 @@
+body{
+    background: #E5E5E5;
+}
+.frame{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #eceaea;
+}
+.main_frame{
+    position: relative;
+    width: 1440px;
+    height: 1312px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2px;
+    overflow-x: hidden;
+}
+
+.main_frame .left_frame {
+    position: relative;
+    width: 305px;
+    height: 1315px;
+    background-color: white;
+}
+
+.main_frame .left_1{
+    position: relative;
+    width: 228px;
+    height: 253px;
+    margin-top: 47px;
+    margin-left: 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left_1_img{
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    width: 156.16px;
+    height: 135.05px;
+    margin-right: 10px;
+}
+
+.left_1_name{
+    position: relative;
+    width: 64px;
+    height: 20.85px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #2B2B2B;
+}
+
+.left_1_job{
+    position: relative;
+    width: 147.84px;
+    height: 24.31px;
+    margin-left:  22.4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: 'calt' off, 'kern' off;
+    color: #767676;
+}
+
+.left_1_icon{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 17px;
+    width: 228px;
+}
+
+.link_href{
+    text-decoration: none;
+    color: black;
+}
+
+.icon{
+    font-family: 'Fontawesome';
+    position: relative;
+    width: 24.99px;
+    height: 21.61px;
+    background: #FFB400;
+    border-radius: 50%;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.icon-1{
+    position: relative;
+     /* left: 29.17%; */
+    /* right: 27.08%;  */
+    /* margin-top: 8.33%; */
+}
+
+.main_frame .marginer{
+    position: relative;
+    width: 220px;
+    height: 0px;
+    margin-left: 40px;
+    margin-bottom: 25px;
+    margin-top: 39px;
+    /* Background */
+    border: 1.5px solid #f0f0f6;
+}
+
+.main_frame .left_2{
+    position: relative;
+    width: 221px;
+    height: 126px;
+    margin-left: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.per_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info_q{
+    position: relative;
+    height: 24px;
+    padding: 0 7px;
+    background: #FFB400;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+    text-transform: capitalize;
+    font-feature-settings: 'calt' off, 'kern' off;
+    /* Black */
+    color: #2B2B2B;
+}
+
+.info_a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+    text-align: right;
+    text-transform: capitalize;
+    font-feature-settings: 'calt' off, 'kern' off;
+}
+.info_3{
+    color: #7EB942;
+}
+
+.main_frame .left_3{
+    position: relative;
+    width: 220px;
+    height: 153px;
+    margin-top: 25px;
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skill-h{
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+}
+
+.skill-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.skill-info div{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: 'calt' off, 'kern' off;
+    color: #767676;
+}
+
+.marginer-block{
+    position: relative;
+    width: 220px;
+    height: 4px;
+    border: 0.5px solid #FFB400;
+    border-radius: 30px;
+}
+
+.marginer-1{
+    width: 217px;
+    height: 2px;
+    background: #FFB400;
+    border-radius: 30px;
+}
+
+.marginer-2{
+    width: 208px;
+    height: 2px;
+    background: #FFB400;
+    border-radius: 30px;
+}
+
+.marginer-3{
+    width: 190px;
+    height: 2px;
+    background: #FFB400;
+    border-radius: 30px;
+}
+
+.main_frame .left_4{
+    position: relative;
+    width: 220px;
+    height: 252px;
+    margin-top:25px;
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.marginer-4{
+    width: 209px;
+    height: 2px;
+    background: #FFB400;
+    border-radius: 30px;
+}
+.marginer-5{
+    width: 207px;
+    height: 2px;
+    background: #FFB400;
+    border-radius: 30px;
+}
+.marginer-6{
+    width: 201px;
+    height: 2px;
+    background: #FFB400;
+    border-radius: 30px;
+}
+.marginer-7{
+    width: 187px;
+    height: 2px;
+    background: #FFB400;
+    border-radius: 30px;
+}
+.marginer-8{
+    width: 207px;
+    height: 2px;
+    background: #FFB400;
+    border-radius: 30px;
+}
+
+
+.main_frame .left_5{
+    position: relative;
+    width: 186px;
+    height: 148px;
+    margin-top:25px;
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ex-skills-info{
+    height: 24px;
+    width: 186px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ex-skill-name{
+    position: relative;
+    left: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+    text-transform: capitalize;
+    font-feature-settings: 'calt' off, 'kern' off;
+    /* Paragraph Font */
+    color: #767676;
+}
+

@@ -1,0 +1,227 @@
+.main_frame .midd_frame{
+    position: relative;
+    width: 971px;
+    height: 1259px;
+    margin-left: 34px;
+    margin-right: 22px;
+    display: flex;
+    flex-direction: column;
+}
+
+.midd-top{
+    position: relative;
+    background: #FFFFFF;
+    width: 971px;
+    height: 454.33px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.job-heading{
+    width: 490.51px;
+    height: 116.74px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 123.6%;
+    color: #2B2B2B;
+}
+.about-p{
+    position: relative;
+    width: 424.44px;
+    height: 85.61px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: 'calt' off, 'kern' off;
+    color: #767676;
+}
+
+.hire-btn{
+    width: 154px;
+    height: 51px;
+    background: #FFB400;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 10px;
+    color: #2B2B2B;
+    outline: none;
+    border: none;
+}
+
+.bigman-img{
+    position: relative;
+    top: 19.46px;
+    width: 326.06px;
+    height: 446.63px;
+}
+
+.ellipse{
+    position: absolute;
+}
+
+.ellipse-1{
+    position: absolute;
+    top: 37.86px;
+    left: 36.05px;
+}
+
+.ellipse-2{
+    position: absolute;
+    left: 84.01px;
+    bottom: 19.54px;
+}
+
+.ellipse-3{
+    position: absolute;
+    left: 370.04px;
+    bottom: 102.81px;
+}
+
+.ellipse-4{
+    position: absolute;
+    left: 516.55px;
+    top: 59.26px;
+}
+
+.ellipse-5{
+    position: absolute;
+    bottom: 60.43px;
+    left: 554.45px;
+}
+
+.ellipse-6{
+    position: absolute;
+    top: 76.44px;
+    right: 57.2px;
+}
+
+.ellipse-7{
+    position: absolute;
+    bottom: 14.43px;
+    right: 16.67px;
+}
+
+.midd-bottom{
+    width: 970px;
+    height: 653px;
+    margin-top: 134.37px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service-heading{
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+}
+
+.service-about{
+    position: relative;
+    width: 438px;
+    height: 68px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: 'calt' off, 'kern' off;
+    color: #767676;
+}
+
+.service-block{
+    width: 970px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service{
+    margin-top: 20px;
+    position: relative;
+    width: 310px;
+    height: 225px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.service-h{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+}
+
+.service-p{
+    font-family: 'Inter';
+    width: 250px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: 'calt' off, 'kern' off;
+    color: #767676;
+}
+
+.order-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFB400;
+    text-decoration: none;
+}
+
+.main_frame .right_frame{
+    position: relative;
+    width: 108px;
+    height: 1315px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+}
+
+.dark-light-link{
+    margin-top: 50px;
+}
+
+.right-links{
+    width: 65px;
+    height: 493px;
+    margin-top: 174px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
