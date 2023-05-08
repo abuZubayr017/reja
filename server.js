@@ -26,8 +26,9 @@ app.set("views", "views");
 app.set("view engine", "ejs")
 
 // 4 Routing code
-app.post("/create-item", function() {
-    
+app.post("/create-item", function(req,res) {
+    console.log(req.body.item)
+    res.render(res.json({test:"success"}))
 })
 
 app.get("/author", function(req,res) {
@@ -35,7 +36,7 @@ app.get("/author", function(req,res) {
 })
 
 app.get("/", function(req,res) {
-    res.render("harid",)
+    res.render("harid")
 });
 
 
