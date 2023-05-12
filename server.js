@@ -36,7 +36,7 @@ app.get("/author", function(req,res) {
 })
 
 app.get("/", function(req,res) {
-    res.render("harid")
+    res.render("reja")
 });
 
 
