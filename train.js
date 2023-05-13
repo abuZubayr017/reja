@@ -1,3 +1,51 @@
+class Shop {
+    constructor(burger, non, kola) {
+        this.burger = burger;
+        this.non = non;
+        this.kola = kola;
+    }
+
+    add(item, num) {
+        if(item === 'burger'){
+            this.burger += num;
+        }
+        if(item === 'non'){
+            this.non += num;
+        }
+        if(item === 'kola'){
+            this.kola += num;
+        }
+    }
+
+    sell(item, num) {
+        if(item === 'burger' && num <= this.burger){
+            this.burger -= num;
+        }
+        if(item === 'non' && num <= this.non){
+            this.non -= num;
+        }
+        if(item === 'kola' && num <= this.kola){
+            this.kola -= num;
+        }
+    }
+
+    balance() {
+        let hour = new Date().getHours();
+        let min = new Date().getMinutes();
+        console.log(
+            `Hozir ${hour}:${min}da burger ${this.burger} ta, non ${this.non} ta va kola ${this.kola} ta bor`
+        );
+    }
+}
+
+const market = new Shop(10, 8, 5);
+
+market.sell('kola', 3);
+market.balance()
+
+market.add('non', 7)
+market.sell('burger', 5)
+market.balance();
 
 
 // console.log("Jack's advices")
