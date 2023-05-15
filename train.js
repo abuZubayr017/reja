@@ -1,51 +1,19 @@
-class Shop {
-    constructor(burger, non, kola) {
-        this.burger = burger;
-        this.non = non;
-        this.kola = kola;
-    }
+const alphabet = "abcdefghijklmnopqrstuvwxyz";
+let code = 2;
 
-    add(item, num) {
-        if(item === 'burger'){
-            this.burger += num;
-        }
-        if(item === 'non'){
-            this.non += num;
-        }
-        if(item === 'kola'){
-            this.kola += num;
-        }
-    }
-
-    sell(item, num) {
-        if(item === 'burger' && num <= this.burger){
-            this.burger -= num;
-        }
-        if(item === 'non' && num <= this.non){
-            this.non -= num;
-        }
-        if(item === 'kola' && num <= this.kola){
-            this.kola -= num;
-        }
-    }
-
-    balance() {
-        let hour = new Date().getHours();
-        let min = new Date().getMinutes();
-        console.log(
-            `Hozir ${hour}:${min}da burger ${this.burger} ta, non ${this.non} ta va kola ${this.kola} ta bor`
-        );
-    }
+function decodeMessage(message, secret) {
+    let split_alp = alphabet.split('');
+    let split_msg = message.split('');
+    
 }
 
-const market = new Shop(10, 8, 5);
+const message = "hello, how are you doing, my general?";
+const secret_msg = decodeMessage(message, code);
+console.log("Secret ->", secret_msg);
 
-market.sell('kola', 3);
-market.balance()
 
-market.add('non', 7)
-market.sell('burger', 5)
-market.balance();
+
+
 
 
 // console.log("Jack's advices")
