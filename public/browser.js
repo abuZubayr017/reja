@@ -17,7 +17,7 @@ function itemTemplate(item) {
 let new_reja = document.getElementById('create-field');
 
 document.getElementById('create-form').addEventListener("submit", (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     axios
        .post('/create-item', {reja: new_reja.value})
        .then((response) => {

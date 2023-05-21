@@ -7,6 +7,7 @@ const fs = require("fs");
 const db = require("./server").db();
 const mongodb = require("mongodb");
 
+
 // 1 Kirish Kodlar
 app.use(express.static("public"));
 app.use(express.json());
