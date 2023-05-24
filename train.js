@@ -1,15 +1,43 @@
-const alphabet = "abcdefghijklmnopqrstuvwxyz";
-let code = 2;
 
-function decodeMessage(message, secret) {
-    let split_alp = alphabet.split('');
-    let split_msg = message.split('');
+function tubSonmi(number) {
+
+    let isPrime = true;
+
+        for (let i = 2; i < number; i++) {
+            if (number % i == 0) {
+                isPrime = false;
+                break;
+            }
+        }
+    
+        if (isPrime) {
+            return true;
+        } else {
+            return false;
+        }
     
 }
 
-const message = "hello, how are you doing, my general?";
-const secret_msg = decodeMessage(message, code);
-console.log("Secret ->", secret_msg);
+let res = tubSonmi(23)
+console.log(res);
+
+
+
+
+
+
+// const alphabet = "abcdefghijklmnopqrstuvwxyz";
+// let code = 2;
+
+// function decodeMessage(message, secret) {
+//     let split_alp = alphabet.split('');
+//     let split_msg = message.split('');
+    
+// }
+
+// const message = "hello, how are you doing, my general?";
+// const secret_msg = decodeMessage(message, code);
+// console.log("Secret ->", secret_msg);
 
 
 
